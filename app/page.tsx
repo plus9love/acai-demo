@@ -65,8 +65,8 @@ export default function Home() {
             ベース・フルーツ・トッピングを選んで、オリジナルのアサイーボウルを作れます。
           </p>
 
-<div className="mb-8 rounded-3xl bg-purple-100 p-8">
-  <div className="relative mx-auto h-[500px] w-[500px]">
+<div className="mb-8 sticky top-0 z-20 rounded-3xl bg-purple-100 p-4 sm:p-8">
+  <div className="relative mx-auto aspect-square w-full max-w-[500px]">
 
   <img
   src="/images/bowl.png"
